@@ -3,10 +3,14 @@
 const showme = document.querySelector(".showme");
 console.log(showme);
 
+
+
 // 1.2 Usa querySelector para mostrar por consola el h1 con el id #pillado
 
 const h1 = document.querySelector("#pillado");
-console.log(h1);
+console.log(h1.textContent);
+
+
 
 // 1.3 Usa querySelector para mostrar por consola todos los p
 
@@ -40,3 +44,4 @@ testMe.forEach((testMe) => {
 // data-function="testMe".
 
 console.log('Mostrar el 3er span ' + testMe[3].textContent);
+
